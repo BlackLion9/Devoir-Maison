@@ -1,0 +1,46 @@
+\documentclass[a4paper,10pt]{report}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[utf8]{inputenc} %% pour les accents en français
+\usepackage[frenchb]{babel} %% pour un format français
+\usepackage{graphicx} %% pour afficher des graphiques
+\usepackage{wrapfig} %% Écrire à coté des figures  
+\usepackage{subcaption} %% pour afficher plusieurs images de suite
+\usepackage{float} %% pour placer les images au bonne endroit [H]
+\usepackage{multicol}
+\usepackage{amsmath} %% pour écrire des symboles (maths), des équations, etc.
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{bm} %% pour lister des citations/la biblio
+\usepackage{hyperref} %% pour inserer des liens internet
+\usepackage{cleveref} %% pour faire des références uax équations, tableaux, etc.
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry} %% pour modifier les marges 
+\usepackage{setspace} %% pour changer l'espace entre les lignes
+%\linespread{1.6} %% pour changer l'espace entre les lignes
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% pour configurer la numérotation
+\renewcommand{\thesection}{\Roman{section}} 
+\renewcommand{\thesubsection}{\;\quad \Alph{subsection}}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thesubfigure}{\alph{subfigure}}
+\renewcommand{\theequation}{\arabic{equation}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{TP 3 : Méthodes des Éléments Finis 2D\\ Écoulement Potentiel 2D - Comsol} %% choissez un titre approprié à votre sujet
+\author{par\\FORESTAL Nicolas\\ Université Claude Bernard Lyon 1 \\Pour l'UE Méthodes des Éléments Finis pour la Mécanique (M1)} %% utilisez \\ pour une novuelle ligne
+\date{fait le 28 Novembre 2019} %% pour afficher la date actuelle commenter cette ligne
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\selectlanguage{french} %% format français
+\maketitle %% pour afficher le titre
+\tableofcontents %% pour afficher/compiler le sommaire automatiquement
+\listoffigures %% pour lister les figures
+\newpage
+
+\end{document}
